@@ -146,7 +146,12 @@ div.container.post{
   margin-bottom:50px;
 }
 
-.twoButton {
+.scrapeButton {
+  margin:20px;
+  text-align: center;
+}
+
+.viewButton {
   margin:20px;
   text-align: center;
 }

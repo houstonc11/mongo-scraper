@@ -79,7 +79,7 @@ app.get("/articles", function(req, res) {
     else {
       res.json(doc);
     }
-  });
+  }).limit(10);
 });
 // Grab an article by it's ObjectId
 app.get("/articles/:id", function(req, res) {
